@@ -1,0 +1,77 @@
+body{
+  font-family: 'Bebas Neue';
+  width: 100%;
+  background-color: #463f3a;
+  color: #463f3a;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  opacity: 50%;
+}
+
+a:hover{
+  opacity: 90%;
+}
+
+.container {
+  width: 700px;
+    margin: 40px auto;
+}
+
+#intro * {
+  height: 40px;
+  display: inline;
+  /* I know that I should make a container for the h1 and juxtaposed imgs then size imgs to be 100% height, but I'm rushing, sorry. */
+  /* I'm only getting away as the other elements aren't affected by the height styling in this bracket. */
+}
+
+.img-circle{
+  border-radius: 50%;
+  padding-top: 20px;
+  width: 150px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card{
+  background-color: #bcb8b1;
+  width: 620px;
+  padding: 40px;
+  padding-top: 20px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.card h2{
+  margin-top: 0;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn-blue{
+  background-color: rgb(84, 84, 177);
+  color: #e0afa0;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+/* I'll be honest. I get the idea for this portion. Mobile dev first, scale to that and build to larger displays. */
